@@ -38,3 +38,9 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
+
+.container__aviso {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif
+}
