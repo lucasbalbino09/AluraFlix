@@ -1,22 +1,40 @@
 :root {
     --branco-principal: #ffffff;
     --cinza-secudario: #c0c0c0c0;
-    --botao-azul:#167bf7;
-    --cor-de-fundo:#00030c;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
 }
+
 body {
     background: var(--cor-de-fundo);
     color: var(--branco-principal);
-    
 }
+
 .combo {
     font-size: 25px;
 }
+
 .principal {
     background-image: url("img/Background.png");
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-size: contain;
 }
+
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
