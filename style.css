@@ -3,15 +3,20 @@
     --cinza-secudario: #c0c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --font-principal: 'Inter';
 }
 
 body {
     background: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.combo {
-    font-size: 25px;
+.container__combo {
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .principal {
@@ -32,6 +37,7 @@ body {
     border-radius: 5px;
     padding: 1em;
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario {
@@ -41,6 +47,7 @@ body {
 
 .container__aviso {
     text-align: center;
-    font-size: 15px;
+    color: var(--cinza-secudario);
+    font-size: 12px;
     font-family: "Times New Roman", Times, serif
 }
