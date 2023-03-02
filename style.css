@@ -68,4 +68,21 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+.descricao__texto {
+    color: var(--cinza-secudario);
+}
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em; 
 }
